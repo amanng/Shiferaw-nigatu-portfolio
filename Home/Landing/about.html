@@ -2,7 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Personal website</title>
+    <link rel="stylesheet" href="../Css/styles.css" />
+    <title>About Me - Personal Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="keywords"
@@ -11,16 +12,17 @@
     <meta
       name="description"
       content="Learn more about me, my background, skills, and interests on this page."
-    />
-    <title>About Me - My Personal Website</title>
+      />
   </head>
   <body>
+   
     <nav>
-      <a href="index.html">Home</a>&nbsp;|&nbsp;
-      <a href="about.html">About Me</a>&nbsp;|&nbsp;
-      <a href="Contact.html">Contact</a>&nbsp;|&nbsp;
+      <a href="index.html">Home</a>&nbsp;&nbsp;
+      <a href="about.html">About Me</a>&nbsp;&nbsp;
+      <a href="Contact.html">Contact</a>&nbsp;&nbsp;
       <a href="projects.html">Projects</a>
     </nav>
+     <main>
     <h1>About Me</h1>
     <p>
       I’m a passionate Frontend Developer with a strong interest in creating
@@ -35,37 +37,53 @@
       continuously improve my skills by working on real-world projects,
       exploring new frontend techniques, and refining my development workflow
     </p>
-    <p>
-      <h2>Skills</h2>
-      <ol>
-        <li>HTML5, CSS3, JavaScript (ES6+)</li>
-        <li>Responsive Web Design</li>
-        <li>Cross-Browser Compatibility</li>
-        <li>Version Control with Git</li>
-        <li>Basic SEO Principles</li>
-        <li>Web Accessibility Standards (WCAG)</li>
-        <li>Performance Optimization Techniques</li>
-      </ol>
-    </p>
-    <br />
-    <h3>Milestones</h3>
-    <ul>
-      <li>Completed a comprehensive frontend development course at <strong>Jedan Code Acadamy.</strong></li>
-      <li>Developed and deployed multiple personal projects showcasing my skills.</li>
-      <li>Contributed to open-source projects on GitHub.</li>
-      <li>Regularly participate in coding challenges to sharpen my problem-solving abilities.</li>
-    </ul>
-    <p>
-      Feel free to explore my projects to see examples of my work, and don't
-      hesitate to reach out via the contact page for collaborations or
-      inquiries.
-    </p>
-    <button type="button" onclick="location.href='projects.html'">
-      View My Projects
-    </button>
-    <br />
-    <br />
+  <section class="skills">
+        <h2>Skills</h2>
+        <ol>
+          <li>HTML5, CSS3, JavaScript (ES6+)</li>
+          <li>Responsive & Mobile-First Web Design</li>
+          <li>Flexbox & CSS Grid Layouts</li>
+          <li>Cross-Browser Compatibility</li>
+          <li>Version Control with Git & GitHub</li>
+          <li>Basic SEO Best Practices</li>
+          <li>Web Accessibility (WCAG Guidelines)</li>
+          <li>Frontend Performance Optimization</li>
+        </ol>
+      </section>
+    <section class="milestones">
+        <h2>Milestones</h2>
+        <ul>
+          <li>
+            Completed a comprehensive frontend development course at
+            <strong>Jedan Code Academy</strong>.
+          </li>
+          <li>
+            Designed and developed multiple personal projects to strengthen my
+            frontend skills.
+          </li>
+          <li>
+            Contributed to open-source projects and collaborated using GitHub.
+          </li>
+          <li>
+            Regularly participate in coding challenges to improve problem-solving
+            and logic skills.
+          </li>
+        </ul>
+      </section>
+    <section class="about-cta">
+        <p>
+          Feel free to explore my projects to see examples of my work. If you’re
+          interested in collaboration, freelance opportunities, or just want to
+          connect, don’t hesitate to reach out.
+        </p>
+
+        <button type="button" onclick="location.href='projects.html'">
+          View My Projects
+        </button>
+      </section>
+      <br /><br />
   </body>
+  </main>
   <footer>
     <a href="https://github.com/amanng">GitHub Profile</a>&nbsp;|&nbsp;
     <a href="https://linkedin.com/in/shiferaw-nigatu">LinkedIn Profile</a

@@ -2,6 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../Css/styles.css" />
     <title>Personal website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
@@ -17,36 +18,64 @@
   <body>
     <header>
       <nav>
-        <a href="index.html">Home</a>&nbsp;|&nbsp;
-        <a href="about.html">About Me</a>&nbsp;|&nbsp;
-        <a href="Contact.html">Contact</a>
+        <a href="index.html">Home</a>&nbsp;&nbsp;
+        <a href="about.html">About Me</a>&nbsp;&nbsp;
+        <a href="Contact.html">Contact</a>&nbsp;&nbsp;
         <a href="projects.html">Projects</a>
       </nav>
     </header>
-    <h1>Contact Me</h1>
-    <p>
-      If you’re interested in collaboration, job opportunities, or professional
-      discussions, please send me a message using the form below. I look forward
-      to connecting with you.
-    </p>
-    <img
-      src="../Image/close-up-portrait-attractive-young-woman-isolated.jpg"
-      alt="Contact Form Image"
-      height="200px"
-      width="300px"
-    />
-    <form>
-      <label for="name">Name:</label><br />
-      <input type="text" id="name" name="name" required /><br /><br />
-      <label for="email">Email:</label><br />
-      <input type="email" id="email" name="email" required /><br /><br />
-      <label for="message">Message:</label><br />
-      <textarea id="message" name="message" rows="4" required></textarea
-      ><br /><br />
-      <input type="submit" value="Send Message" />
-    </form>
-    <br />
-    <br />
+    <main>
+      <h1>Contact Me</h1>
+      <p>
+        If you’re interested in collaboration, job opportunities, or
+        professional discussions, please send me a message using the form below.
+        I look forward to connecting with you.
+      </p>
+      <img
+        src="../Image/close-up-portrait-attractive-young-woman-isolated.jpg"
+        alt="Contact Form Image"
+        height="200px"
+        width="300px"
+      />
+      <br /><br />
+
+      <form method="POST">
+        <label for="name">First Name:</label><br />
+        <input
+          type="text"
+          id="name"
+          name="name"
+          required
+          autocomplete="name"
+          placeholder="First name"
+        /><br /><br />
+        <label for="last-name">Last Name:</label><br />
+        <input
+          type="text"
+          id="last-name"
+          name="last-name"
+          required
+          autocomplete="family-name"
+          placeholder="Last name"
+        /><br /><br />
+        <label for="email">Email:</label><br />
+        <input
+          type="email"
+          id="email"
+          name="email"
+          required
+          autocomplete="email"
+          placeholder="Your email address"
+        /><br /><br />
+        <label for="message">Message:</label><br />
+        <textarea id="message" name="message" rows="4" required></textarea
+        ><br /><br />
+        <input class="submit-button" type="submit" value="Send Message" />
+      </form>
+
+      <br />
+      <br />
+    </main>
     <footer>
       <a href="https://github.com/amanng">GitHub Profile</a>&nbsp;|&nbsp;
       <a href="https://linkedin.com/in/shiferaw-nigatu">LinkedIn Profile</a
